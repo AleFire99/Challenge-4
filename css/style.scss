@@ -46,7 +46,6 @@ body {
 
 .card {
   width: 80%;
-  max-width: 300px;
 
   margin: auto;
 
@@ -120,6 +119,8 @@ body {
   .card {
     margin: 0;
     padding: 0;
+
+    max-width: 300px;
 
     &:first-of-type {
       margin-top: 0;

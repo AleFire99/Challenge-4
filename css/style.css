@@ -39,7 +39,6 @@ body {
 
 .card {
   width: 80%;
-  max-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -97,6 +96,7 @@ body {
   .card {
     margin: 0;
     padding: 0;
+    max-width: 300px;
   }
   .card:first-of-type {
     margin-top: 0;
