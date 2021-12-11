@@ -46,6 +46,7 @@ body {
 
 .card {
   width: 80%;
+  max-width: 300px;
 
   margin: auto;
 
@@ -137,5 +138,6 @@ body {
   .container {
     flex-direction: row;
     padding: 10%;
+    justify-content: center;
   }
 }

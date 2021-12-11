@@ -39,6 +39,7 @@ body {
 
 .card {
   width: 80%;
+  max-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -111,5 +112,11 @@ body {
   .container {
     flex-direction: row;
     padding: 10%;
+    justify-content: center;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*@media only screen and (min-width: 950px) {
+  .card {
+    width: 800px;
+  }
+}*//*# sourceMappingURL=style.css.map */
